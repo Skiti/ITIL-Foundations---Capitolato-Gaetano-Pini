@@ -1,0 +1,108 @@
+% !TEX encoding = UTF-8
+% !TEX TS-program = pdflatex
+% !TEX root = ../tesi.tex
+% !TEX spellcheck = it-IT
+
+
+
+
+%**************************************************************
+\chapter{Soluzione Generale}
+\label{cap:introduzione}
+%**************************************************************
+
+	\section{Introduzione}
+		In questo capitolo verrà presentata una bozza di soluzione generale a cui si farà riferimento nei capitoli successivi.
+        
+        
+        Completezza, portata e livello di profondità della soluzione presentata non sono tali da poterla considerare una soluzione definitiva da poter presentare al Proponente in quanto tale obiettivo esula dagli scopi di questo documento. Verranno elencati solamente i punti oggetto di discussione o analisi nel seguito del documento.
+        A causa dei requisiti di sicurezza e privacy imposti dal capitolato, si precisa che non sono state prese in considerazione soluzioni Cloud.
+        
+        Inoltre, per una corretta stesura di questa tipologia di documenti sono necessarie una serie di informazioni  reperibili tramite interviste (individuali o di gruppo), workshop, email o questionari. Ai fini del progetto universitario, non avendo disponibilità di informazioni specifiche di tale scenario, saranno \textit{ipotizzati} dati sostitutivi ragionevoli e consoni alle informazioni deducibili dal capitolato d'appalto.
+        
+	\section{Ambienti}
+    	La soluzione prevede l'utilizzo di tre ambienti distinti:
+        \begin{itemize}
+        	\item Produzione.
+            \item Test.
+            \item Disaster \& Recovery.
+        \end{itemize}
+        
+	\section{Sistemi e applicativi}
+		Di seguito viene riportata una tabella che descrive i sistemi e gli applicativi proposti dall'Offerente.
+
+        \renewcommand\arraystretch{1.5}
+        \begin{longtable}{c l c c c}
+        \toprule
+        \textbf{Ambito} & \textbf{Tecnologie} & \textbf{Utenti} \\
+        \toprule
+            \small{Urgenza, Ambulatorio e Degenza} & Aurora Web, ICAN &  650 \\
+            %5 & Immagini & \small{RIS/PACS, AGFA/FUJI} & Dir. Img & 50 \\
+             Emoderivati & SAP & 10 \\
+             Analisi & PowerLab & 10 \\
+             \small{Fatturaz., Archivio clinico, Referti} & SAP &  15 \\
+            %4 & Punti gialli & NA & Dir. PtiGialli & ND\\
+             SISS & ICAN & 350 \\
+             Amministrazione & SAP & 70 \\
+             \small{Ricoveri, Sale operatorie, Protesi} & SAP &  5 \\
+             Gestione mail & SAP & 650 \\
+             Gestione pazienti esterni & SAP  & 650 \\
+             Gestione stampa & SAP & 650 \\
+            \bottomrule
+            \caption{Sistemi e applicativi della soluzione.}
+        \end{longtable}
+        
+	\section{Servizi}
+    	Di seguito è riportato l'elenco dei servizi oggetto del capitolato d'appalto.
+        
+        \renewcommand\arraystretch{1,5}
+        \begin{longtable}{p{8cm}}
+        \toprule
+        \textbf{Servizio} \\
+        \toprule
+        Conduzione operativa dei sistemi di elaborazione  \\
+        Pianificazione e controllo delle elaborazioni \\
+        Manutenzione degli ambienti software di sistema \\
+        Systems \& LAN Management \\
+        Call Center Interno \\
+        Gestione della configurazione \\
+        Outsourcing delle postazioni di lavoro \\
+        Manutenzione del software applicativo \\
+        Formazione \\
+        Servizio di housing \\
+        Servizio di supporto direzionale \\
+        Servizio di supporto gestione del personale \\
+        \bottomrule
+        \caption{Servizi.}
+        \end{longtable}
+        
+	\section{Processi}
+    	Di seguito viene riportato l'elenco dei processi che verranno istanziati dall'Offerente presso il Proponente.
+        \renewcommand\arraystretch{1,5}
+        \begin{longtable}{l}
+        \toprule
+        \textbf{Processo}\\
+        \toprule
+        Asset management\\
+        Change management \\
+        Problem management \\
+        Business continuity \\
+        Misurazione dei livelli di servizio \\
+        Processo di gestione delle prestazioni ambulatoriali \\
+        Processo di gestione delle prestazioni di ricovero \\
+        Processo di gestione delle prestazioni di Pronto Soccorso \\
+        \small{\hspace{0.5cm} tra cui operazioni coinvolgenti attività di codice giallo e rosso} \\
+        \small{\hspace{0.5cm} tra cui operazioni coinvolgenti attività di codice bianco e verde e altre operazioni} \\
+        Processo di gestione risorse economiche \\
+        Processo di gestione risorse umane \\
+        Processi di gestione direzionale \\
+        \bottomrule
+        \caption{Processi}
+        \end{longtable}
+
+	\section{Contratti}
+		La situazione contrattuale del Proponente dopo la presa in carico da parte dell'Offerente verrà semplificata. Infatti, il Proponente avrà un unico contratto con l'Offerente per la fornitura di tutti i software e i sistemi IT.
+        
+        
+        L'Offerente si occuperà di prendere in carico anche i contratti esistenti dei software e dei sistemi IT che verranno forniti.
+        
